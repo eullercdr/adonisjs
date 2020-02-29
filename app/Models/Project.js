@@ -9,7 +9,7 @@ class Project extends Model {
   }
 
   tasks () {
-    return this.hasMany('App/Models/Taks')
+    return this.hasMany('App/Models/Task')
   }
 }
 
